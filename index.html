@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBooks</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_container">
+            <span class="cabecalho__menu-hamburguer cabecalho_link"></span>
+            <img src="assets/Polygon 1 (Stroke).svg" alt="Logo da Codebooks">
+        </div>
+        <div class="cabecalho_container">
+            <a href="#" class="cabecalho_link">
+                <img src="assets/coração.svg" alt="Logo da Favoritos">
+            </a>
+            <a href="#" class="cabecalho_link">
+                <img src="assets/Group.svg" alt="Logo da Compras">
+            </a>
+            <a href="#" class="cabecalho_link">
+                <img src="assets/Usuario.svg" alt="Logo do usuário">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">"Encontre em nossa estante o que precisa para seu desenvolvimento"</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel_titulo"> Novos lançamentos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/ApacheKafka livro 1.svg" alt="Livro sobre  ApacheKafka"></div>
+                    <div class="swiper-slide"><img src="assets/Arquitetura livro 2.svg" alt="Livro sobre Arquitetura"></div>
+                    <div class="swiper-slide"><img src="assets/Portugol livro 3.svg" alt="Livro sobre Portugol"></div>
+                    <div class="swiper-slide"><img src="assets/Gestão livro 5.svg" alt="Livro sobre Gestão"></div>
+                    <div class="swiper-slide"><img src="assets/Liderança livro 6.svg" alt="Livro sobre Liderança"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <!-- Cartão inteiro -->
+            <div class="card_infos">
+                <div class="card_infos_textos">
+                    <h3>Talvez você também se interesse por...</h3>
+                    <h2>Angular 11 e Firebase</h2>
+                    <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="assets/Angular.svg" alt="Símbolo do Angular (a gigante)">
+            </div>
+            <div class="card_botoes">
+                <div>
+                    <img src="assets/coração.svg" alt="Ícone de Favoritos">
+                    <img src="assets/Group.svg" alt="Ícone de Compras">
+                </div>
+                <a class="botao" href="#">Saiba mais</a>
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel_titulo"> Novos lançamentos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/MetricasAgeis.svg" alt="Livro sobre Métricas Ágeis"></div>
+                    <div class="swiper-slide"><img src="assets/Gestão2.svg" alt="Livro sobre Gestão2"></div>
+                    <div class="swiper-slide"><img src="assets/Portugol livro 3.svg" alt="Livro sobre Portugol"></div>
+                    <div class="swiper-slide"><img src="assets/Gestão livro 5.svg" alt="Livro sobre Gestão"></div>
+                    <div class="swiper-slide"><img src="assets/Liderança livro 6.svg" alt="Livro sobre Liderança"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <!-- linha1 div -->
+            <div class="card_infos">
+                <div class="card_infos_textos">
+                    <img class="estrela" src="assets/Estrelinhas.svg" alt="Estrelinhas">
+                    <h3>Autora do Mês</h3>
+                    <h2>Juliana Agarikov</h2>
+                    <p>Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <img src="assets/Perfil-escritora 1.svg" alt="Imagem da escritora Juliana Agarikov">
+            </div>
+            <div class="card_botoes">
+                <div>
+                    <img src="assets/coração.svg" alt="Ícone de Favoritos">
+                    <img src="assets/Group.svg" alt="Ícone de Compras">
+                </div>
+                <a class="botao" href="#">Saiba mais</a>
+            </div>
+        </section>
+
+        <!-- Tópicos visitados -->
+        <section class="topicos">
+            <h3>Topicos Visitados recentes</h3>
+        <ul class="grupo_de_botao">
+        <li><a class="botao" href="#">Android</a></li>
+        <li><a class="botao" href="#">Marketing Digital</a></li>
+        <li><a class="botao" href="#">Agile</a></li>
+        <li><a class="botao" href="#">Startups</a></li>
+        <li><a class="botao" href="#">HTML & CSS</a></li>
+        <li><a class="botao" href="#">Python</a></li>
+        <li><a class="botao" href="#">OO</a></li>
+        <li><a class="botao" href="#">Java</a></li>
+    </ul>
+        </section>
+    </main>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>
