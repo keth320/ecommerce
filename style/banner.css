@@ -9,6 +9,9 @@
     font-weight: 700;
     font-size: 18px;
 }
+.banner__titulo{
+    color: #ffff;
+}
 .banner__texto {
 
     font-weight: 500;
